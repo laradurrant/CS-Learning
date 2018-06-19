@@ -11,11 +11,11 @@ Topics to cover:
   * Bubble Sort
  
  Possible Resources:
- [Simple Algorithms](http://algorithms.openmymind.net/)
- [Khan Academy - Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms)
- [Quora - 10 common algorithms for CS Students](https://www.quora.com/Which-are-the-10-algorithms-every-computer-science-student-must-implement-at-least-once-in-life)
+ * [Simple Algorithms](http://algorithms.openmymind.net/)
+ * [Khan Academy - Algorithms](https://www.khanacademy.org/computing/computer-science/algorithms)
+ * [Quora - 10 common algorithms for CS Students](https://www.quora.com/Which-are-the-10-algorithms-every-computer-science-student-must-implement-at-least-once-in-life)
  
 ## Memory Management & Pointers
 
-[Pointers in C++ - Tutorial](http://www.cplusplus.com/doc/tutorial/pointers/)
-[Memory Management Wikipedia](https://en.wikipedia.org/wiki/Memory_management)
+* [Pointers in C++ - Tutorial](http://www.cplusplus.com/doc/tutorial/pointers/)
+* [Memory Management Wikipedia](https://en.wikipedia.org/wiki/Memory_management)
