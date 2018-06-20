@@ -8,7 +8,15 @@ Topics to cover:
     * [Guide from Interview Cake](https://www.interviewcake.com/article/java/big-o-notation-time-and-space-complexity)
     * [Guide from MIT](http://web.mit.edu/16.070/www/lecture/big_o.pdf)
   * Linked Lists
+  * Linear Search
+    * What would happen if you searched every item from start to finish
+    * So in a number choosing game, you would start with 1, 2, 3, 4, 5, etc
   * Binary Trees
+    * An efficient search algorithm that divides a sorted list in half 
+      * Commonly used in a lot of guessing games
+      * Can be used for maze pathfinding with a grid
+      * This is the algorithm we used in the Number Wizard game from Udemy
+      * With a list of numbers between 1 and 100, you would want to guess 50 first, then 25, etc
   * Merge Sort
   * Quick Sort
   * Bubble Sort
