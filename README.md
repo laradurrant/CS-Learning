@@ -43,6 +43,10 @@ Topics to cover:
       * You then compare all elements of the array to the pivot, moving elements smaller to the left and larger elements to the right (Note that the elements are not sorted beyond making sure they are on the right "side" of the pivot)
       * Two new pivots are then chosen (one to the left and one to the right of the former pivot) and the algorithm continues
   * Bubble Sort
+    * Often taught as an early example of "how to sort", extremely inefficient
+      * Operates by multiple passes, compares each element and the next
+      * Swaps the two if the right element is less than the left element
+      * It works, it's stable, but it's just very slow-- not recommended for most purposes
  
  Possible Resources:
  * [Simple Algorithms](http://algorithms.openmymind.net/)
