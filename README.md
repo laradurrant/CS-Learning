@@ -32,11 +32,16 @@ Topics to cover:
       * At worst, you will check log2(n) + 1 or log2(n) cases
   * Merge Sort
     * Merge sort is a divide and conquer type of algorithm
-    * Can be run recursively--> idea is that you break the array up into smaller arrays
-    * So an array of length 20 would become two arrays of length 10, etc
-    * The process would then repeat until the length of each array becomes 1.
-    * At this point, the values of the arrays are sorted and then combined
+      * Recursive algorithm--> idea is that you break the array up into smaller arrays
+      * So an array of length 20 would become two arrays of length 10, etc
+      * The process would then repeat until the length of each array becomes 1.
+      * At this point, the values of the arrays are sorted and then combined
   * Quick Sort
+    * Similar to Merge Sort, but this is an in-place algorithm
+      * Another divide-and-conquer algorithm, but with no additional merge at the end (since it sorts as it goes)
+      * In Quick Sort, you take the rightmost element and use that as the pivot
+      * You then compare all elements of the array to the pivot, moving elements smaller to the left and larger elements to the right (Note that the elements are not sorted beyond making sure they are on the right "side" of the pivot)
+      * Two new pivots are then chosen (one to the left and one to the right of the former pivot) and the algorithm continues
   * Bubble Sort
  
  Possible Resources:
