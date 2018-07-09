@@ -13,11 +13,15 @@ Topics to cover:
     * [Guide from Interview Cake](https://www.interviewcake.com/article/java/big-o-notation-time-and-space-complexity)
     * [Guide from MIT](http://web.mit.edu/16.070/www/lecture/big_o.pdf)
   * Linked Lists
+    * Contains nodes, each node has a value and a pointer to the next value in the list
+    * Singly linked lists are unidirectional, where doubly linked lists contain two pointers (one to the previous and next nodes)
+    * Adding to the front or the end of the list is quite easy and efficient
+    * However, adding to the middle of a linked list can be tricky unless you have the address of the node you want
+    * The reason for this is because you have to cycle through every element in order to find the spot that you want
   * Linear Search
     * What would happen if you searched every item from start to finish
     * So in a number choosing game, you would start with 1, 2, 3, 4, 5, etc
-    * Worst case scenario, you will go through the entire list
-    * Θ(n)
+    * Worst case scenario, you will go through the entire list -> Θ(n)
     * [Aymptotic notation](https://www.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/big-big-theta-notation)
   * Binary Trees
     * An efficient search algorithm that divides a sorted list in half 
@@ -27,6 +31,11 @@ Topics to cover:
       * With a list of numbers between 1 and 100, you would want to guess 50 first, then 25, etc
       * At worst, you will check log2(n) + 1 or log2(n) cases
   * Merge Sort
+    * Merge sort is a divide and conquer type of algorithm
+    * Can be run recursively--> idea is that you break the array up into smaller arrays
+    * So an array of length 20 would become two arrays of length 10, etc
+    * The process would then repeat until the length of each array becomes 1.
+    * At this point, the values of the arrays are sorted and then combined
   * Quick Sort
   * Bubble Sort
  
@@ -36,6 +45,7 @@ Topics to cover:
  * [Quora - 10 common algorithms for CS Students](https://www.quora.com/Which-are-the-10-algorithms-every-computer-science-student-must-implement-at-least-once-in-life)
  
 ## Memory Management & Pointers
+Pointers are a way to keep track of the address of a variable within memory. 
 
 * [Pointers in C++ - Tutorial](http://www.cplusplus.com/doc/tutorial/pointers/)
 * [Memory Management Wikipedia](https://en.wikipedia.org/wiki/Memory_management)
