@@ -8,12 +8,14 @@ Not A
 
 
 A and B
-A   B    A ^ B
----------------
-T   T      T
-T   F      F
-F   T      F
-F   F      F
+
+| A  | B | A ^ B |
+| ------------- | ------------- | ------------- |
+| T  | T  | T |
+| T  | F  | F |
+| F  | T  | F |
+| F  | F  | F |
+
 
 A or B
 A   B    A ∨ B
