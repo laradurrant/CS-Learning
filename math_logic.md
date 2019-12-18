@@ -18,37 +18,39 @@ A and B
 
 
 A or B
-A   B    A ∨ B
----------------
-T   T      T
-T   F      T
-F   T      T
-F   F      F
+| A  | B | A ∨ B |
+| ------------- | ------------- | ------------- |
+| T  | T  | T |
+| T  | F  | T |
+| F  | T  | T |
+| F  | F  | F |
 
 A xor B
-A   B    A ∨ B
----------------
-T   T      F
-T   F      T
-F   T      T
-F   F      F
+| A  | B | A ∨ B |
+| ------------- | ------------- | ------------- |
+| T  | T  | F |
+| T  | F  | T |
+| F  | T  | T |
+| F  | F  | F |
+
 
 
 A implies B
-A   B    A ⇒ B
----------------
-T   T      T
-T   F      F
-F   T      T
-F   F      T
+| A  | B | A ⇒ B |
+| ------------- | ------------- | ------------- |
+| T  | T  | T |
+| T  | F  | F |
+| F  | T  | T |
+| F  | F  | T |
+
 
 A is equivalent to B 
-A   B    A ⇔ B
----------------
-T   T      T
-T   F      F
-F   T      F
-F   F      T
+| A  | B | A ⇔ B |
+| ------------- | ------------- | ------------- |
+| T  | T  | T |
+| T  | F  | F |
+| F  | T  | F |
+| F  | F  | T |
 
 
 
